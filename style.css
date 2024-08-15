@@ -1,0 +1,156 @@
+body {
+    background-image: url(img/imagem\ de\ fundo\ quiz.png);
+    font-family: "Margarine", sans-serif; 
+    background-color: #e8f5e9; 
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #575A21; 
+    font-size: 5rem; 
+    margin-top: 8rem;
+    margin-bottom: 20px; 
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.2em; 
+    margin-bottom: 50px; 
+}
+
+
+.fundo {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #4B6636;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes de responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem; /* Reduz o tamanho do título em dispositivos menores */
+    }
+
+    a {
+        font-size: 1.2em; /* Ajusta o tamanho do texto dos botões */
+        padding: 10px 20px; /* Reduz o padding dos botões */
+    }
+
+    .fundo {
+        width: 90%; /* Aumenta a largura da seção em dispositivos móveis */
+        padding: 20px; /* Reduz o padding em dispositivos móveis */
+    }
+}
+
+#botao-verdadeiro {
+    margin-right: 20%;
+    color: #775809;
+    font-family: "Skranji", sans-serif;
+    padding: 3px 22px; /* Ajustado o padding para ficar mais consistente */
+    font-size: 1.5em;
+    background-color: #C8B88E;
+    border: none;
+    border-radius: 5px; /* Adiciona bordas arredondadas se desejado */
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#botao-falso {
+    margin-left: 10%;
+    color: #775809;
+    font-family: "Skranji", sans-serif;
+    padding: 3px 22px; /* Ajustado o padding para ficar mais consistente */
+    font-size: 1.5em;
+    background-color: #C8B88E;
+    border: none;
+    border-radius: 5px; /* Adiciona bordas arredondadas se desejado */
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#botao-verdadeiro:hover,
+#botao-falso:hover {
+    background-color: #a89b6f; /* Cor mais escura para o hover */
+    color: #4c8535; /* Cor do texto quando o mouse passa sobre o botão */
+}
+
+/* Estilo do botão Jogar */
+#botao-jogar {
+    font-family: "Margarine", sans-serif;
+    padding: 15px 30px; 
+    font-size: 1.5em; 
+    color: #000000;
+    background-color: #8EA267; 
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    text-transform: uppercase; 
+    transition: background-color 0.3s; 
+}
+
+#botao-jogar:hover {
+    background-color: #4c8535; /* Verde escuro quando o mouse passa sobre o botão */
+}
+
+/* Estilo do botão Reiniciar e Sair */
+#botao-reiniciar,
+#botao-sair {
+    font-family: "Margarine", sans-serif;
+    padding: 15px 30px; 
+    font-size: 1.5em; 
+    color: #ffffff;
+    background-color: #8EA267; 
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    text-transform: uppercase; 
+    transition: background-color 0.3s; 
+}
+
+#botao-reiniciar:hover,
+#botao-sair:hover {
+    background-color: #4c8535; /* Verde escuro quando o mouse passa sobre o botão */
+}
+
+/* Estilo da seta no canto inferior esquerdo */
+.seta-voltar {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: #575A21;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.seta-voltar:hover {
+    color: #4c8535; /* Cor da seta quando o mouse passa sobre ela */
+}
+
+/* Estilos gerais */
+
+
+#botao-proximo {
+    padding: 10px 10px; 
+    font-size: 1.5em; 
+    display: none;
+    background-color: #C8B88E; 
+}
+
+#botao-proximo:hover {
+    background-color: #2c6b2f; 
+    transition: background-color 0.3s; 
+
+}
