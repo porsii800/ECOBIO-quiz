@@ -2,7 +2,8 @@ body {
     background-image: url(img/imagem\ de\ fundo\ quiz.png);
     font-family: "Margarine", sans-serif; 
     background-color: #e8f5e9; 
-    color: #333;
+    
+    color: #3F2913;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -13,51 +14,66 @@ h1 {
     font-size: 5rem; 
     margin-top: 8rem;
     margin-bottom: 20px; 
+    
 }
 
 p {
     color: #ffffff;
+    font-size: 2em; 
+    margin-bottom: 70px; 
+}
+
+.teste{
+    color: #020000;
     font-size: 1.2em; 
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 
 .fundo {
     width: 80%;
-    max-width: 600px;
+    max-width: 800px;
     margin: 30px auto;
-    padding: 30px;
+    padding: 100px ;
     background-color: #4B6636;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Ajustes de responsividade */
+
+.finalizado{
+    background-image: url(img/imagem\ fundo\ final.jpg);
+  
+    margin: 0;
+    padding: 0;
+}
+
+
 @media (max-width: 768px) {
     h1 {
-        font-size: 3rem; /* Reduz o tamanho do título em dispositivos menores */
+        font-size: 3rem; 
     }
 
     a {
-        font-size: 1.2em; /* Ajusta o tamanho do texto dos botões */
-        padding: 10px 20px; /* Reduz o padding dos botões */
+        font-size: 1.2em; 
+        padding: 10px 20px; 
     }
 
     .fundo {
-        width: 90%; /* Aumenta a largura da seção em dispositivos móveis */
-        padding: 20px; /* Reduz o padding em dispositivos móveis */
+        width: 90%; 
+        padding: 20px; 
     }
 }
 
 #botao-verdadeiro {
-    margin-right: 20%;
+    
     color: #775809;
     font-family: "Skranji", sans-serif;
-    padding: 3px 22px; /* Ajustado o padding para ficar mais consistente */
+    padding: 3px 20px; 
     font-size: 1.5em;
     background-color: #C8B88E;
     border: none;
-    border-radius: 5px; /* Adiciona bordas arredondadas se desejado */
+    border-radius: 3px;
     text-decoration: none;
     display: inline-block;
     transition: background-color 0.3s, color 0.3s;
@@ -67,11 +83,11 @@ p {
     margin-left: 10%;
     color: #775809;
     font-family: "Skranji", sans-serif;
-    padding: 3px 22px; /* Ajustado o padding para ficar mais consistente */
+    padding: 3px 50px;
     font-size: 1.5em;
     background-color: #C8B88E;
     border: none;
-    border-radius: 5px; /* Adiciona bordas arredondadas se desejado */
+    border-radius: 3px; 
     text-decoration: none;
     display: inline-block;
     transition: background-color 0.3s, color 0.3s;
@@ -79,11 +95,11 @@ p {
 
 #botao-verdadeiro:hover,
 #botao-falso:hover {
-    background-color: #a89b6f; /* Cor mais escura para o hover */
-    color: #4c8535; /* Cor do texto quando o mouse passa sobre o botão */
+    background-color: #a89b6f; 
+    color: #4c8535; 
 }
 
-/* Estilo do botão Jogar */
+
 #botao-jogar {
     font-family: "Margarine", sans-serif;
     padding: 15px 30px; 
@@ -93,53 +109,52 @@ p {
     border: none;
     border-radius: 30px; 
     cursor: pointer;
+    text-decoration: none;
     text-transform: uppercase; 
     transition: background-color 0.3s; 
 }
 
 #botao-jogar:hover {
-    background-color: #4c8535; /* Verde escuro quando o mouse passa sobre o botão */
+    background-color: #4c8535; 
 }
 
-/* Estilo do botão Reiniciar e Sair */
-#botao-reiniciar,
-#botao-sair {
-    font-family: "Margarine", sans-serif;
-    padding: 15px 30px; 
+
+#botao-reiniciar {
+
+    font-family: "Skranji", sans-serif;
+    padding: 10px 10px; 
     font-size: 1.5em; 
-    color: #ffffff;
-    background-color: #8EA267; 
+    color: #3F3022;
+    background-color: #C8B88E; 
     border: none;
-    border-radius: 30px; 
+    border-radius: 10px;
+    margin-right: 3%;
     cursor: pointer;
     text-transform: uppercase; 
+    text-decoration: none;
     transition: background-color 0.3s; 
 }
 
-#botao-reiniciar:hover,
-#botao-sair:hover {
-    background-color: #4c8535; /* Verde escuro quando o mouse passa sobre o botão */
-}
+#botao-inicio {
 
-/* Estilo da seta no canto inferior esquerdo */
-.seta-voltar {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    font-size: 2rem;
-    color: #575A21;
-    text-decoration: none;
-    background-color: transparent;
+    font-family: "Skranji", sans-serif;
+    padding: 10px 30px; 
+    font-size: 1.5em; 
+    color: #3F3022;
+    background-color: #C8B88E; 
     border: none;
+    border-radius: 10px;
+    margin-left: 2%;
     cursor: pointer;
-    transition: color 0.3s;
+    text-transform: uppercase; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
 }
 
-.seta-voltar:hover {
-    color: #4c8535; /* Cor da seta quando o mouse passa sobre ela */
+#botao-inicio:hover,
+#botao-reiniciar:hover {
+    background-color: #4c8535; 
 }
-
-/* Estilos gerais */
 
 
 #botao-proximo {
