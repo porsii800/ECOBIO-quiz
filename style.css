@@ -25,7 +25,7 @@ p {
 
 h2 {
     
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 2em;
     margin: 5px;
     padding: 15px;
@@ -88,7 +88,7 @@ h2 {
 
 
 #botao-proxima {
-    color: #000000;
+    color: #775809;
     font-family: "Skranji", sans-serif;
     padding: 5px 30px; 
     font-size: 1.5em;
@@ -99,6 +99,11 @@ h2 {
     display: inline-block;
     transition: background-color 0.3s, color 0.3s;
     
+
+}
+
+#botao-proxima:hover{
+    background-color: #3F3022';
 
 }
 
