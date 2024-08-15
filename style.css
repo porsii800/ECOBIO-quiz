@@ -13,52 +13,66 @@ h1 {
     color: #575A21; 
     font-size: 5rem; 
     margin-top: 8rem;
-    margin-bottom: 20px; 
+    margin-bottom: 1.25rem; 
+    
+}
+h3 {
+    color: #575A21; 
+    font-size: 7rem; 
+    margin-top: 8rem;
+    margin-bottom: 1.25rem; 
     
 }
 
 p {
     color: #ffffff;
     font-size: 2em; 
-    margin-bottom: 70px; 
+    margin-bottom: 4.375rem; 
 }
 
 h2 {
     
-    border-radius: 10px;
+    border-radius: 0.625rem;
     font-size: 2em;
-    margin: 5px;
-    padding: 15px;
+    margin: 0.313rem;
+    padding: 0.938rem;
     background-color: #C8B88E;
   
 }
 
+
+.botao-v{
+    color: #4B6636;
+    margin-right: 100%;
+   
+}
+
 .respostas {
     width: 80%;
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 100px ;
+    max-width: 50rem;
+    margin: 3.125rem auto;
+    padding: 6.25rem ;
     background-color: #4B6636;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 
 }
 
 .teste{
     color: #020000;
     font-size: 1.2em; 
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 
 .fundo {
     width: 80%;
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 100px ;
+    max-width: 50rem;
+    margin: 1.875rem auto;
+    padding: 6.25rem ;
     background-color: #4B6636;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 
@@ -102,10 +116,8 @@ h2 {
 
 }
 
-#botao-proxima:hover{
-    background-color: #3F3022';
 
-}
+
 
 #botao-verdadeiro {
     
@@ -144,7 +156,7 @@ h2 {
 
 #botao-jogar {
     font-family: "Margarine", sans-serif;
-    padding: 15px 30px; 
+    padding: 15px 50px; 
     font-size: 1.5em; 
     color: #000000;
     background-color: #8EA267; 
