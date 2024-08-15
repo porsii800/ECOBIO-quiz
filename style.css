@@ -58,6 +58,17 @@ h2 {
 
 }
 
+.respostass {
+    width: 80%;
+    max-width: 50rem;
+    margin: 3.125rem auto;
+    padding: 6.25rem ;
+    background-color: #4B6636;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+
+}
+
 .teste{
     color: #020000;
     font-size: 1.2em; 
@@ -114,6 +125,10 @@ h2 {
     transition: background-color 0.3s, color 0.3s;
     
 
+}
+
+#botao-proxima:hover{
+    background-color: #3F3022;
 }
 
 
